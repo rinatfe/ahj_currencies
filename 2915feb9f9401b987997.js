@@ -1,0 +1,1 @@
+export default function luhnAlgoritm(r){for(var t=0,n=0;n<r.length;n++){var e=parseInt(r[n]);n%2==0&&(e*=2)>9&&(e-=9),t+=e}return t%10==0}

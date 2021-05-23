@@ -1,0 +1,1 @@
+import PaySystemCheck from"./PaysystemCheck";var input=document.getElementById("card_number"),check=document.getElementById("submitform"),actionClass="cdisabled",paySystemCheck=new PaySystemCheck(actionClass,".card",input,check);paySystemCheck.addListener();
